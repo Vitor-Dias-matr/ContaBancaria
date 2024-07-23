@@ -38,3 +38,8 @@ C:\Users\vitor.dias\Documents\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.dll
 C:\Users\vitor.dias\Documents\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.pdb
 C:\Users\vitor.dias\Documents\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.genruntimeconfig.cache
 C:\Users\vitor.dias\Documents\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.csproj.Up2Date
+C:\Users\vitor.dias\Documents\Teste\Teste\obj\Debug\netcoreapp3.1\Teste.sourcelink.json
+C:\Users\vitor.dias\Documents\Teste\Teste\obj\Debug\netcoreapp3.1\Razor\Views\Conta\Criar.cshtml.g.cs
+C:\Users\vitor.dias\Documents\Teste\Teste\obj\Debug\netcoreapp3.1\Razor\Views\Conta\Depositar.cshtml.g.cs
+C:\Users\vitor.dias\Documents\Teste\Teste\obj\Debug\netcoreapp3.1\Razor\Views\Conta\Sacar.cshtml.g.cs
+C:\Users\vitor.dias\Documents\Teste\Teste\obj\Debug\netcoreapp3.1\Razor\Views\Conta\Tranferir.cshtml.g.cs
