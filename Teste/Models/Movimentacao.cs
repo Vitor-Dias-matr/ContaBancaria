@@ -12,7 +12,7 @@ namespace Teste.Models
             NumeroContaDestino = numeroContaDestino;
             Data = DateTime.Now;
         }
-
+        public int Id { get; set; } 
         public TipoMovimentacao Tipo { get; set; }
         public DateTime Data { get; set; }
         public decimal Valor { get; set; }
