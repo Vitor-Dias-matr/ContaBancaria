@@ -1,0 +1,32 @@
+﻿@using Teste.ViewModel
+@model TransferirViewModel
+
+@{
+    ViewData["Title"] = "Transferir";
+}
+
+<h2>Transferir</h2>
+
+<form asp-action="Transferir" method="post">
+    <div class="form-group">
+        <label asp-for="ContaOrigem"></label>
+        <input asp-for="ContaOrigem" class="form-control" readonly />
+        <span asp-validation-for="ContaOrigem" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ContaDestino"></label>
+        <input asp-for="ContaDestino" class="form-control" />
+        <span asp-validation-for="ContaDestino" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Valor"></label>
+        <input asp-for="Valor" class="form-control" />
+        <span asp-validation-for="Valor" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Transferir</button>
+</form>
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary mt-3">Voltar</a>

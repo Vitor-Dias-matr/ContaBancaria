@@ -33,10 +33,15 @@ namespace Teste.Controllers
             return View(model);
         }
 
-        [HttpGet]
-        public IActionResult Depositar()
+        [HttpGet] 
+        public IActionResult Depositar(int id)
         {
-            return View();
+            // Cria o ViewModel com o número da conta
+            var model = new DepositarViewModel
+            {
+                NumeroConta = id
+            };
+            return View(model);
         }
 
         [HttpPost]
@@ -51,9 +56,13 @@ namespace Teste.Controllers
         }
 
         [HttpGet]
-        public IActionResult Sacar()
+        public IActionResult Sacar(int id)
         {
-            return View();
+            var model = new SacarViewModel 
+            {
+                NumeroConta = id
+            };
+            return View(model);
         }
 
         [HttpPost]
@@ -84,9 +93,13 @@ namespace Teste.Controllers
         }
 
         [HttpGet]
-        public IActionResult Transferir()
+        public IActionResult Transferir(int id)
         {
-            return View();
+            var model = new TransferirViewModel
+            {
+                ContaOrigem = id 
+            };
+            return View(model);
         }
 
         [HttpPost]

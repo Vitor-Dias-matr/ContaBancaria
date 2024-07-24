@@ -12,7 +12,7 @@ namespace Teste.Migrations
                 columns: table => new
                 {
                     NumeroConta = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        .Annotation("Sqlite:Autoincrement", true),
                     Responsavel = table.Column<string>(maxLength: 100, nullable: false),
                     Saldo = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
@@ -26,7 +26,7 @@ namespace Teste.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        .Annotation("Sqlite:Autoincrement", true),
                     Tipo = table.Column<int>(nullable: false),
                     Data = table.Column<DateTime>(nullable: false),
                     Valor = table.Column<decimal>(type: "decimal(18,2)", nullable: false),

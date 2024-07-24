@@ -1,62 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vitor.dias\\Documents\\Teste\\",
+  "WorkspaceRootPath": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\context\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\context\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\viewmodel\\criarcontaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\viewmodel\\criarcontaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\service\\contaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\service\\contaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\service\\interface\\icontaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\service\\interface\\icontaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\views\\conta\\transferir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\views\\conta\\transferir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\controllers\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\controllers\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\viewmodel\\transferirviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\viewmodel\\transferirviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\views\\conta\\sacar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\controllers\\contacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\views\\conta\\sacar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\views\\conta\\sacar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\views\\conta\\depositar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\migrations\\20240724123520_criandobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\migrations\\20240724123520_criandobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\service\\contaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\service\\contaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\context\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\context\\contexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\views\\conta\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\views\\conta\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\viewmodel\\criarcontaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\viewmodel\\criarcontaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\service\\interface\\icontaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\service\\interface\\icontaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\views\\conta\\depositar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\views\\conta\\depositar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste02\\contabancaria\\teste\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\views\\conta\\tranferir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\views\\conta\\tranferir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|c:\\users\\vitor.dias\\documents\\teste\\teste\\views\\conta\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1EC110EE-C796-49B1-8B81-7047A95E3E75}|Teste\\Teste.csproj|solutionrelative:teste\\views\\conta\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Controllers\\Conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +89,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,37 +97,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Contexto.cs",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Context\\Contexto.cs",
-              "RelativeDocumentMoniker": "Teste\\Context\\Contexto.cs",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Context\\Contexto.cs",
-              "RelativeToolTip": "Teste\\Context\\Contexto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
+              "DocumentIndex": 2,
+              "Title": "TransferirViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\ViewModel\\TransferirViewModel.cs",
+              "RelativeDocumentMoniker": "Teste\\ViewModel\\TransferirViewModel.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\ViewModel\\TransferirViewModel.cs",
+              "RelativeToolTip": "Teste\\ViewModel\\TransferirViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:22:05.62Z",
+              "WhenOpened": "2024-07-24T12:54:36.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CriarContaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\ViewModel\\CriarContaViewModel.cs",
-              "RelativeDocumentMoniker": "Teste\\ViewModel\\CriarContaViewModel.cs",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\ViewModel\\CriarContaViewModel.cs",
-              "RelativeToolTip": "Teste\\ViewModel\\CriarContaViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:20:03.943Z",
+              "Title": "Transferir.cshtml",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Conta\\Transferir.cshtml",
+              "RelativeDocumentMoniker": "Teste\\Views\\Conta\\Transferir.cshtml",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Conta\\Transferir.cshtml",
+              "RelativeToolTip": "Teste\\Views\\Conta\\Transferir.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T12:53:36.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Teste\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Teste\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:53:17.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContaController.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Controllers\\ContaController.cs",
+              "RelativeDocumentMoniker": "Teste\\Controllers\\ContaController.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Controllers\\ContaController.cs",
+              "RelativeToolTip": "Teste\\Controllers\\ContaController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAmwHQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T11:51:18.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Startup.cs",
+              "RelativeDocumentMoniker": "Teste\\Startup.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Startup.cs",
+              "RelativeToolTip": "Teste\\Startup.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAqwCcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T15:18:29.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Program.cs",
               "RelativeDocumentMoniker": "Teste\\Program.cs",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Program.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Program.cs",
               "RelativeToolTip": "Teste\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -113,65 +175,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Startup.cs",
-              "RelativeDocumentMoniker": "Teste\\Startup.cs",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Startup.cs",
-              "RelativeToolTip": "Teste\\Startup.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAwAAAA",
+              "DocumentIndex": 11,
+              "Title": "Contexto.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Context\\Contexto.cs",
+              "RelativeDocumentMoniker": "Teste\\Context\\Contexto.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Context\\Contexto.cs",
+              "RelativeToolTip": "Teste\\Context\\Contexto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:18:29.745Z",
+              "WhenOpened": "2024-07-23T15:22:05.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IContaService.cs",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Service\\Interface\\IContaService.cs",
-              "RelativeDocumentMoniker": "Teste\\Service\\Interface\\IContaService.cs",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Service\\Interface\\IContaService.cs",
-              "RelativeToolTip": "Teste\\Service\\Interface\\IContaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:18:22.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContaService.cs",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Service\\ContaService.cs",
-              "RelativeDocumentMoniker": "Teste\\Service\\ContaService.cs",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Service\\ContaService.cs",
-              "RelativeToolTip": "Teste\\Service\\ContaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T15:18:07.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Teste\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Teste\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwBYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-23T15:15:46.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Sacar.cshtml",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Conta\\Sacar.cshtml",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Conta\\Sacar.cshtml",
               "RelativeDocumentMoniker": "Teste\\Views\\Conta\\Sacar.cshtml",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Conta\\Sacar.cshtml",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Conta\\Sacar.cshtml",
               "RelativeToolTip": "Teste\\Views\\Conta\\Sacar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-23T15:09:39.694Z",
               "EditorCaption": ""
@@ -179,10 +215,101 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\appsettings.json",
+              "RelativeDocumentMoniker": "Teste\\appsettings.json",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\appsettings.json",
+              "RelativeToolTip": "Teste\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-24T11:54:14.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240724123520_CriandoBanco.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Migrations\\20240724123520_CriandoBanco.cs",
+              "RelativeDocumentMoniker": "Teste\\Migrations\\20240724123520_CriandoBanco.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Migrations\\20240724123520_CriandoBanco.cs",
+              "RelativeToolTip": "Teste\\Migrations\\20240724123520_CriandoBanco.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:35:20.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Teste\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "Teste\\Repository\\GenericRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:12:36.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ContaService.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Service\\ContaService.cs",
+              "RelativeDocumentMoniker": "Teste\\Service\\ContaService.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Service\\ContaService.cs",
+              "RelativeToolTip": "Teste\\Service\\ContaService.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAmwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T15:18:07.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IContaService.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Service\\Interface\\IContaService.cs",
+              "RelativeDocumentMoniker": "Teste\\Service\\Interface\\IContaService.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Service\\Interface\\IContaService.cs",
+              "RelativeToolTip": "Teste\\Service\\Interface\\IContaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T15:18:22.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Conta\\Criar.cshtml",
+              "RelativeDocumentMoniker": "Teste\\Views\\Conta\\Criar.cshtml",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Conta\\Criar.cshtml",
+              "RelativeToolTip": "Teste\\Views\\Conta\\Criar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T15:07:02.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CriarContaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\ViewModel\\CriarContaViewModel.cs",
+              "RelativeDocumentMoniker": "Teste\\ViewModel\\CriarContaViewModel.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\ViewModel\\CriarContaViewModel.cs",
+              "RelativeToolTip": "Teste\\ViewModel\\CriarContaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T15:20:03.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Teste\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Teste\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -191,51 +318,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Depositar.cshtml",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Conta\\Depositar.cshtml",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Conta\\Depositar.cshtml",
               "RelativeDocumentMoniker": "Teste\\Views\\Conta\\Depositar.cshtml",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Conta\\Depositar.cshtml",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Views\\Conta\\Depositar.cshtml",
               "RelativeToolTip": "Teste\\Views\\Conta\\Depositar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-23T15:09:17.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Tranferir.cshtml",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Conta\\Tranferir.cshtml",
-              "RelativeDocumentMoniker": "Teste\\Views\\Conta\\Tranferir.cshtml",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Conta\\Tranferir.cshtml",
-              "RelativeToolTip": "Teste\\Views\\Conta\\Tranferir.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-23T15:08:40.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Criar.cshtml",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Conta\\Criar.cshtml",
-              "RelativeDocumentMoniker": "Teste\\Views\\Conta\\Criar.cshtml",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Views\\Conta\\Criar.cshtml",
-              "RelativeToolTip": "Teste\\Views\\Conta\\Criar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-23T15:07:02.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Conta.cs",
               "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Controllers\\Conta.cs",
-              "RelativeDocumentMoniker": "Teste\\Controllers\\Conta.cs",
+              "RelativeDocumentMoniker": "..\\..\\Teste\\Teste\\Controllers\\Conta.cs",
               "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Controllers\\Conta.cs",
-              "RelativeToolTip": "Teste\\Controllers\\Conta.cs",
+              "RelativeToolTip": "..\\..\\Teste\\Teste\\Controllers\\Conta.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T15:06:49.077Z",
@@ -243,11 +344,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "Conta.cs",
-              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Models\\Conta.cs",
+              "DocumentMoniker": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Models\\Conta.cs",
               "RelativeDocumentMoniker": "Teste\\Models\\Conta.cs",
-              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Models\\Conta.cs",
+              "ToolTip": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Models\\Conta.cs",
               "RelativeToolTip": "Teste\\Models\\Conta.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

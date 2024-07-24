@@ -29,15 +29,22 @@ namespace Teste
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews(); 
+            services.AddControllersWithViews();
 
             // Configurar o Context com a string de conexão
-            services.AddDbContext<Contexto>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<Contexto>(options =>
+            //    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+
+            var connection = Configuration["ConexaoSqlite:SqliteConnectionString"];
+            services.AddDbContext<Contexto>(options => 
+                options.UseSqlite(connection)
+            );
 
             //typeof para tipo generico
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IContaService, ContaService>();
+            services.AddScoped<IExtratoService, ExtratoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

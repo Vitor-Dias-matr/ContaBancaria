@@ -1,0 +1,51 @@
+﻿@using Teste.ViewModel
+@model IEnumerable<MovimentacaoViewModel>
+
+@{
+    ViewData["Title"] = "Extrato por Intervalo";
+}
+
+<h2>Extrato por Intervalo</h2>
+
+<form method="get" asp-action="PorIntervalo">
+    <div class="form-group">
+        <label for="inicio">Data de Início:</label>
+        <input type="date" id="inicio" name="inicio" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="fim">Data de Fim:</label>
+        <input type="date" id="fim" name="fim" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Tipo</th>
+                <th>Valor</th>
+                <th>Conta Origem</th>
+                <th>Conta Destino</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movimentacao in Model)
+            {
+                <tr>
+                    <td>@movimentacao.Data.ToString("d")</td>
+                    <td>@movimentacao.Tipo</td>
+                    <td>@movimentacao.Valor.ToString("C")</td>
+                    <td>@movimentacao.NumeroContaOrigem</td>
+                    <td>@movimentacao.NumeroContaDestino</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-muted">Nenhuma movimentação encontrada para o intervalo selecionado.</p>
+}

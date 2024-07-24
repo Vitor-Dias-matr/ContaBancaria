@@ -1,0 +1,47 @@
+﻿@using Teste.ViewModel
+@model IEnumerable<MovimentacaoViewModel>
+
+@{
+    ViewData["Title"] = "Extrato por Dia";
+}
+
+<h2>Extrato por Dia</h2>
+
+<form method="get" asp-action="PorDia">
+    <div class="form-group">
+        <label for="dia">Escolha o Dia:</label>
+        <input type="date" id="dia" name="dia" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table mt-3">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Tipo</th>
+                <th>Valor</th>
+                <th>Conta Origem</th>
+                <th>Conta Destino</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movimentacao in Model)
+            {
+                <tr>
+                    <td>@movimentacao.Data.ToString("d")</td>
+                    <td>@movimentacao.Tipo</td>
+                    <td>@movimentacao.Valor.ToString("C")</td>
+                    <td>@movimentacao.NumeroContaOrigem</td>
+                    <td>@movimentacao.NumeroContaDestino</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-muted">Nenhuma movimentação encontrada para o dia selecionado.</p>
+}
