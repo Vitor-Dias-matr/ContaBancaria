@@ -1,11 +1,13 @@
-﻿@using Teste.ViewModel
+﻿@using Teste.Extensions 
+@using Teste.Models
+@using Teste.ViewModel
 @model IEnumerable<MovimentacaoViewModel>
 
 @{
     ViewData["Title"] = "Extrato por Mês";
 }
 
-<h2>Extrato por Mês</h2>
+<h2>@ViewData["Title"]</h2>
 
 <table class="table">
     <thead>
@@ -13,7 +15,7 @@
             <th>Tipo</th>
             <th>Data</th>
             <th>Valor</th>
-            <th>Conta Origem</th>
+            <th>Conta Origem</th> 
             <th>Conta Destino</th>
         </tr>
     </thead>
@@ -21,7 +23,7 @@
         @if (Model == null || !Model.Any())
         {
             <tr>
-                <td colspan="5" class="text-center">Nenhum registro encontrado.</td>
+                <td colspan="4" class="text-center">Nenhum registro encontrado.</td>
             </tr>
         }
         else
@@ -29,7 +31,7 @@
             @foreach (var movimentacao in Model)
             {
                 <tr>
-                    <td>@movimentacao.Tipo</td>
+                    <td>@movimentacao.Tipo.ToFriendlyString()</td> <!-- Usando o método de extensão -->
                     <td>@movimentacao.Data.ToString("dd/MM/yyyy HH:mm:ss")</td>
                     <td>@movimentacao.Valor.ToString("C")</td>
                     <td>@movimentacao.NumeroContaOrigem</td>

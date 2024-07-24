@@ -76,8 +76,8 @@ namespace Teste.Controllers
         {
             if (ModelState.IsValid)
             {
-                var movimentacao = _mapper.Map<Movimentacao>(model);
-                try
+                var movimentacao = _mapper.Map<Movimentacao>(model); 
+                try 
                 {
                     await _contaService.SacarAsync(movimentacao.NumeroContaOrigem, movimentacao.Valor);
                     return Json(new { success = true });

@@ -18,14 +18,14 @@ namespace Teste.Service
             _context = context;
         }
 
-        public async Task<IEnumerable<MovimentacaoViewModel>> ObterExtratoPorDiaAsync(DateTime dia)
+        public async Task<IEnumerable<MovimentacaoViewModel>> ObterExtratoPorDiaAsync(DateTime dia, int conta)
         {
             return await _context.Movimentacoes
-                .Where(m => m.Data.Date == dia.Date)
+                .Where(m => m.Data.Date == dia.Date && m.NumeroContaOrigem == conta)
                 .Select(m => new MovimentacaoViewModel
                 {
                     Id = m.Id,
-                    Tipo = (int)m.Tipo,
+                    Tipo = m.Tipo,
                     Data = m.Data,
                     Valor = m.Valor,
                     NumeroContaOrigem = m.NumeroContaOrigem,
@@ -34,14 +34,14 @@ namespace Teste.Service
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<MovimentacaoViewModel>> ObterExtratoPorMesAsync(int ano, int mes)
+        public async Task<IEnumerable<MovimentacaoViewModel>> ObterExtratoPorMesAsync(int ano, int mes , int conta)
         {
             return await _context.Movimentacoes
-                .Where(m => m.Data.Year == ano && m.Data.Month == mes)
+                .Where(m => m.Data.Year == ano && m.Data.Month == mes && m.NumeroContaOrigem == conta)
                 .Select(m => new MovimentacaoViewModel
                 {
                     Id = m.Id,
-                    Tipo = (int)m.Tipo,
+                    Tipo = m.Tipo,
                     Data = m.Data,
                     Valor = m.Valor,
                     NumeroContaOrigem = m.NumeroContaOrigem,
@@ -50,14 +50,14 @@ namespace Teste.Service
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<MovimentacaoViewModel>> ObterExtratoPorIntervaloAsync(DateTime inicio, DateTime fim)
+        public async Task<IEnumerable<MovimentacaoViewModel>> ObterExtratoPorIntervaloAsync(DateTime inicio, DateTime fim, int conta)
         {
             return await _context.Movimentacoes
-                .Where(m => m.Data >= inicio && m.Data <= fim)
+                .Where(m => m.Data >= inicio && m.Data <= fim && m.NumeroContaOrigem == conta)
                 .Select(m => new MovimentacaoViewModel
                 {
                     Id = m.Id,
-                    Tipo = (int)m.Tipo,
+                    Tipo = m.Tipo,
                     Data = m.Data,
                     Valor = m.Valor,
                     NumeroContaOrigem = m.NumeroContaOrigem,

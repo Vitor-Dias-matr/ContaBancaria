@@ -7,7 +7,7 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<form asp-action="Depositar" method="post">
+<form asp-action="Depositar" method="post" id="depositForm">
     <div class="form-group">
         <label asp-for="NumeroConta" class="control-label"></label>
         <input asp-for="NumeroConta" class="form-control" />
@@ -16,7 +16,7 @@
 
     <div class="form-group">
         <label asp-for="Valor" class="control-label"></label>
-        <input asp-for="Valor" class="form-control" />
+        <input asp-for="Valor" class="form-control" id="valorInput" />
         <span asp-validation-for="Valor" class="text-danger"></span>
     </div>
 
@@ -26,3 +26,17 @@
 </form>
 
 <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Voltar para a Lista de Contas</a>
+
+@section Scripts {
+    <script>
+        document.getElementById('depositForm').addEventListener('submit', function (event) {
+            var valorInput = document.getElementById('valorInput');
+            var valor = parseFloat(valorInput.value);
+
+            if (isNaN(valor) || valor <= 0) {
+                alert('O valor deve ser maior que zero.');
+                event.preventDefault(); // Impede o envio do formulário
+            }
+        });
+    </script>
+}

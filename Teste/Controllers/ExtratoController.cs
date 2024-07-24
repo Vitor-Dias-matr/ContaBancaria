@@ -25,24 +25,24 @@ namespace Teste.Controllers
             return View(model);
 
         }
-        [HttpGet]
-        public async Task<IActionResult> PorDia(DateTime dia)
+        [HttpGet] 
+        public async Task<IActionResult> PorDia(DateTime dia, int numeroConta)
         {
-            var extrato = await _extratoService.ObterExtratoPorDiaAsync(dia);
+            var extrato = await _extratoService.ObterExtratoPorDiaAsync(dia, numeroConta);
             return View(extrato);
         }
 
         [HttpGet]
-        public async Task<IActionResult> PorMes(int ano, int mes)
+        public async Task<IActionResult> PorMes(int ano, int mes, int numeroConta)
         {
-            var extrato = await _extratoService.ObterExtratoPorMesAsync(ano, mes);
+            var extrato = await _extratoService.ObterExtratoPorMesAsync(ano, mes, numeroConta);
             return View(extrato);
         }
 
         [HttpGet]
-        public async Task<IActionResult> PorIntervalo(DateTime inicio, DateTime fim)
+        public async Task<IActionResult> PorIntervalo(DateTime inicio, DateTime fim, int numeroConta)
         {
-            var extrato = await _extratoService.ObterExtratoPorIntervaloAsync(inicio, fim);
+            var extrato = await _extratoService.ObterExtratoPorIntervaloAsync(inicio, fim, numeroConta);
             return View(extrato);
         }
     }

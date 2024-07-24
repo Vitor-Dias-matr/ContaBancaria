@@ -5,47 +5,97 @@
     ViewData["Title"] = "Buscar Extrato";
 }
 
-<h2>Buscar Extrato</h2>
+<h2 class="text-center mb-4">@ViewData["Title"]</h2>
 
-<form asp-controller="Extrato" asp-action="PorDia" method="get">
-    <h3>Por Dia</h3>
-    <input type="hidden" asp-for="NumeroConta" />
-    <div class="form-group">
-        <label asp-for="Data">Data</label>
-        <input asp-for="Data" class="form-control" type="date" />
-        <span asp-validation-for="Data" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Buscar por Dia</button>
-</form>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h3 class="card-title">Buscar por Dia</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Extrato" asp-action="PorDia" method="get">
+                        <input type="hidden" name="NumeroConta" value="@Model.NumeroConta" />
+                        <div class="form-group">
+                            <label for="Data" class="form-label">Data</label>
+                            <input id="Data" name="dia" class="form-control" type="date" />
+                            <span class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Buscar por Dia</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-<form asp-controller="Extrato" asp-action="PorMes" method="get">
-    <h3>Por Mês</h3>
-    <input type="hidden" asp-for="NumeroConta" />
-    <div class="form-group">
-        <label asp-for="Ano">Ano</label>
-        <input asp-for="Ano" class="form-control" type="number" />
-        <span asp-validation-for="Ano" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Mes">Mês</label>
-        <input asp-for="Mes" class="form-control" type="number" />
-        <span asp-validation-for="Mes" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Buscar por Mês</button>
-</form>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h3 class="card-title">Buscar por Mês</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Extrato" asp-action="PorMes" method="get">
+                        <input type="hidden" name="NumeroConta" value="@Model.NumeroConta" />
+                        <div class="form-group">
+                            <label asp-for="Ano" class="form-label">Ano</label>
+                            <input asp-for="Ano" class="form-control" type="number" />
+                            <span asp-validation-for="Ano" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Mes" class="form-label">Mês</label>
+                            <input asp-for="Mes" class="form-control" type="number" />
+                            <span asp-validation-for="Mes" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Buscar por Mês</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-<form asp-controller="Extrato" asp-action="PorIntervalo" method="get">
-    <h3>Por Intervalo</h3>
-    <input type="hidden" asp-for="NumeroConta" />
-    <div class="form-group">
-        <label asp-for="Inicio">Data Início</label>
-        <input asp-for="Inicio" class="form-control" type="date" />
-        <span asp-validation-for="Inicio" class="text-danger"></span>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h3 class="card-title">Buscar por Intervalo</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Extrato" asp-action="PorIntervalo" method="get">
+                        <input type="hidden" name="numeroConta" value="@Model.NumeroConta" />
+                        <div class="form-group">
+                            <label for="Inicio" class="form-label">Data Início</label>
+                            <input id="Inicio" name="inicio" class="form-control" type="date" />
+                            <span class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Fim" class="form-label">Data Fim</label>
+                            <input id="Fim" name="fim" class="form-control" type="date" />
+                            <span class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Buscar por Intervalo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="form-group">
-        <label asp-for="Fim">Data Fim</label>
-        <input asp-for="Fim" class="form-control" type="date" />
-        <span asp-validation-for="Fim" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Buscar por Intervalo</button>
-</form>
+</div>
+
+@* @section Styles {
+    <style>
+        .card-header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .card-title {
+            margin-bottom: 0;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .btn-block {
+            width: 100%;
+        }
+    </style>
+}
+ *@
