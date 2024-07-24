@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kWw0uC3n3JXSQZtswoTOCh6Xspm6/9Zd5kBh+aEGXLJvVkfYEn1e8EE3F5pwVMWjsWRckKM+suV6MI13glmYsA==",
+  "dgSpecHash": "ayFP9NiFq1CfMiRYj1WQSazV+K1gdiKjRDjADiBDvBEghaC0Hwr6lRMZOhpmgPxKmieXr6HruzrxEJz2Z6pIug==",
   "success": true,
   "projectFilePath": "C:\\Users\\vitor.dias\\Documents\\Teste02\\ContaBancaria\\Teste\\Teste.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vitor.dias\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\vitor.dias\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\vitor.dias\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\vitor.dias\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\vitor.dias\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

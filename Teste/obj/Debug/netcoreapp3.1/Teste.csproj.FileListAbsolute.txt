@@ -202,3 +202,9 @@ C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\bin\Debug\netcoreapp3.
 C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\obj\Debug\netcoreapp3.1\Razor\Views\Conta\Transferir.cshtml.g.cs
+C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\obj\Debug\netcoreapp3.1\Razor\Views\Extrato\PorDia.cshtml.g.cs
+C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\obj\Debug\netcoreapp3.1\Razor\Views\Extrato\PorIntervalo.cshtml.g.cs
+C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\obj\Debug\netcoreapp3.1\Razor\Views\Extrato\PorMes.cshtml.g.cs
+C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\obj\Debug\netcoreapp3.1\Razor\Views\Extrato\Index.cshtml.g.cs
+C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\vitor.dias\Documents\Teste02\ContaBancaria\Teste\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

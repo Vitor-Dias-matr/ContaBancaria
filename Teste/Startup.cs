@@ -14,6 +14,8 @@ using Teste.Repository.Interface;
 using Teste.Repository;
 using Teste.Service;
 using Teste.Service.Interface;
+using AutoMapper;
+using Teste.Mapper;
 
 namespace Teste
 {
@@ -39,7 +41,9 @@ namespace Teste
             var connection = Configuration["ConexaoSqlite:SqliteConnectionString"];
             services.AddDbContext<Contexto>(options => 
                 options.UseSqlite(connection)
-            );
+            ); 
+
+            services.AddAutoMapper(typeof(AutoMapperProfile));
 
             //typeof para tipo generico
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));

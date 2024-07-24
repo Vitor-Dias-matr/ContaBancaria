@@ -1,46 +1,50 @@
 ﻿@using Teste.ViewModel
 @model ExtratoSearchViewModel
 
+@{
+    ViewData["Title"] = "Buscar Extrato";
+}
+
 <h2>Buscar Extrato</h2>
 
-<form asp-action="PorDia" method="post">
+<form asp-controller="Extrato" asp-action="PorDia" method="get">
     <h3>Por Dia</h3>
     <input type="hidden" asp-for="NumeroConta" />
     <div class="form-group">
-        <label asp-for="Data"></label>
-        <input asp-for="Data" class="form-control" />
+        <label asp-for="Data">Data</label>
+        <input asp-for="Data" class="form-control" type="date" />
         <span asp-validation-for="Data" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Buscar por Dia</button>
 </form>
 
-<form asp-action="PorMes" method="post">
+<form asp-controller="Extrato" asp-action="PorMes" method="get">
     <h3>Por Mês</h3>
     <input type="hidden" asp-for="NumeroConta" />
     <div class="form-group">
-        <label asp-for="Ano"></label>
-        <input asp-for="Ano" class="form-control" />
+        <label asp-for="Ano">Ano</label>
+        <input asp-for="Ano" class="form-control" type="number" />
         <span asp-validation-for="Ano" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Mes"></label>
-        <input asp-for="Mes" class="form-control" />
+        <label asp-for="Mes">Mês</label>
+        <input asp-for="Mes" class="form-control" type="number" />
         <span asp-validation-for="Mes" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Buscar por Mês</button>
 </form>
 
-<form asp-action="PorIntervalo" method="post">
+<form asp-controller="Extrato" asp-action="PorIntervalo" method="get">
     <h3>Por Intervalo</h3>
     <input type="hidden" asp-for="NumeroConta" />
     <div class="form-group">
-        <label asp-for="Inicio"></label>
-        <input asp-for="Inicio" class="form-control" />
+        <label asp-for="Inicio">Data Início</label>
+        <input asp-for="Inicio" class="form-control" type="date" />
         <span asp-validation-for="Inicio" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Fim"></label>
-        <input asp-for="Fim" class="form-control" />
+        <label asp-for="Fim">Data Fim</label>
+        <input asp-for="Fim" class="form-control" type="date" />
         <span asp-validation-for="Fim" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Buscar por Intervalo</button>

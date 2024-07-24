@@ -5,6 +5,7 @@ using Teste.Context;
 using Teste.Service.Interface;
 using Teste.ViewModel;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace Teste.Service
 {
@@ -24,7 +25,7 @@ namespace Teste.Service
                 .Select(m => new MovimentacaoViewModel
                 {
                     Id = m.Id,
-                    Tipo = m.Tipo,
+                    Tipo = (int)m.Tipo,
                     Data = m.Data,
                     Valor = m.Valor,
                     NumeroContaOrigem = m.NumeroContaOrigem,
@@ -40,7 +41,7 @@ namespace Teste.Service
                 .Select(m => new MovimentacaoViewModel
                 {
                     Id = m.Id,
-                    Tipo = m.Tipo,
+                    Tipo = (int)m.Tipo,
                     Data = m.Data,
                     Valor = m.Valor,
                     NumeroContaOrigem = m.NumeroContaOrigem,
@@ -56,7 +57,7 @@ namespace Teste.Service
                 .Select(m => new MovimentacaoViewModel
                 {
                     Id = m.Id,
-                    Tipo = m.Tipo,
+                    Tipo = (int)m.Tipo,
                     Data = m.Data,
                     Valor = m.Valor,
                     NumeroContaOrigem = m.NumeroContaOrigem,

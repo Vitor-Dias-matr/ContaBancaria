@@ -30,7 +30,9 @@
                     <a asp-controller="Conta" asp-action="Depositar" asp-route-id="@conta.NumeroConta" class="btn btn-primary btn-sm">Depositar</a>
                     <a asp-controller="Conta" asp-action="Sacar" asp-route-id="@conta.NumeroConta" class="btn btn-warning btn-sm">Sacar</a>
                     <a asp-controller="Conta" asp-action="Transferir" asp-route-id="@conta.NumeroConta" class="btn btn-info btn-sm">Transferir</a>
-                    <a asp-controller="Movimentacao" asp-action="Extrato" asp-route-id="@conta.NumeroConta" class="btn btn-secondary btn-sm">Extrato</a>
+                  @*   <a asp-controller="Movimentacao" asp-action="Extrato" asp-route-id="@conta.NumeroConta" class="btn btn-secondary btn-sm">Extrato</a> *@
+                    <a asp-controller="Extrato" asp-action="Index" asp-route-numeroConta="@conta.NumeroConta" class="btn btn-secondary btn-sm">Extrato</a>
+
                 </td>
             </tr>
         }

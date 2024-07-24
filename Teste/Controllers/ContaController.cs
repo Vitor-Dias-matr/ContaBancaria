@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Teste.Models;
 using Teste.Service.Interface;
 using Teste.ViewModel;
 
@@ -10,10 +12,12 @@ namespace Teste.Controllers
     public class ContaController : Controller
     {
         private readonly IContaService _contaService;
+        private readonly IMapper _mapper;
 
-        public ContaController(IContaService contaService)
+        public ContaController(IContaService contaService, IMapper mapper)
         {
             _contaService = contaService;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -25,9 +29,10 @@ namespace Teste.Controllers
         [HttpPost]
         public async Task<IActionResult> Criar(CriarContaViewModel model)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) 
             {
-                var conta = await _contaService.CriarContaAsync(model.Responsavel);
+                var conta = _mapper.Map<Conta>(model);
+                await _contaService.CriarContaAsync(conta.Responsavel);
                 return RedirectToAction("Index", "Home");
             }
             return View(model);
@@ -49,8 +54,9 @@ namespace Teste.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _contaService.DepositarAsync(model.NumeroConta, model.Valor);
-                return RedirectToAction("Index", "Home"); // Redireciona para a lista de contas
+                var movimentacao = _mapper.Map<Movimentacao>(model);
+                await _contaService.DepositarAsync(movimentacao. NumeroContaOrigem, movimentacao.Valor);
+                return RedirectToAction("Index", "Home");
             }
             return View(model);
         }
@@ -68,28 +74,28 @@ namespace Teste.Controllers
         [HttpPost]
         public async Task<IActionResult> Sacar(SacarViewModel model)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return Json(new { success = false, errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
+                var movimentacao = _mapper.Map<Movimentacao>(model);
+                try
+                {
+                    await _contaService.SacarAsync(movimentacao.NumeroContaOrigem, movimentacao.Valor);
+                    return Json(new { success = true });
+                }
+                catch (ArgumentException ex)
+                {
+                    return Json(new { success = false, error = ex.Message });
+                }
+                catch (InvalidOperationException ex)
+                {
+                    return Json(new { success = false, error = ex.Message });
+                }
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, error = "Ocorreu um erro inesperado. Tente novamente." });
+                }
             }
-
-            try
-            {
-                await _contaService.SacarAsync(model.NumeroConta, model.Valor);
-                return Json(new { success = true });
-            }
-            catch (ArgumentException ex)
-            {
-                return Json(new { success = false, error = ex.Message });
-            }
-            catch (InvalidOperationException ex)
-            {
-                return Json(new { success = false, error = ex.Message });
-            }
-            catch (Exception ex)
-            {
-                return Json(new { success = false, error = "Ocorreu um erro inesperado. Tente novamente." });
-            }
+            return Json(new { success = false, errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
         }
 
         [HttpGet]
@@ -107,8 +113,9 @@ namespace Teste.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _contaService.TransferirAsync(model.ContaOrigem, model.ContaDestino, model.Valor);
-                return RedirectToAction("Index", "Home"); // Redireciona para a lista de contas
+                var movimentacao = _mapper.Map<Movimentacao>(model);
+                await _contaService.TransferirAsync(movimentacao.NumeroContaOrigem, movimentacao.NumeroContaDestino.Value, movimentacao.Valor);
+                return RedirectToAction("Index", "Home");
             }
             return View(model);
         }

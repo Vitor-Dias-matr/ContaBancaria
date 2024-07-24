@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using System;
 using Teste.Service.Interface;
+using Teste.ViewModel;
 
 namespace Teste.Controllers
 {
@@ -14,6 +15,16 @@ namespace Teste.Controllers
             _extratoService = extratoService;
         }
 
+        [HttpGet]
+        public IActionResult Index(int numeroConta)
+        {
+            var model = new ExtratoSearchViewModel
+            {
+                NumeroConta = numeroConta
+            };
+            return View(model);
+
+        }
         [HttpGet]
         public async Task<IActionResult> PorDia(DateTime dia)
         {
