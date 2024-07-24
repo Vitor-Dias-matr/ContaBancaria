@@ -1,15 +1,38 @@
-﻿@{
+﻿@using Teste.ViewModel;
+@model ContaListViewModel
+
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Lista de Contas</h2>
 
+<a asp-controller="Conta" asp-action="Criar" class="btn btn-success mb-3">Criar Conta</a>
 
- 
-<button><a class="nav-link text-dark" asp-area="" asp-controller="Conta" asp-action="Criar">Criar</a></button>
-<button><a class="nav-link text-dark" asp-area="" asp-controller="Conta" asp-action="Depositar">Depositar</a></button>
-<button><a class="nav-link text-dark" asp-area="" asp-controller="Conta" asp-action="Sacar">Sacar</a></button>
-<button><a class="nav-link text-dark" asp-area="" asp-controller="Conta" asp-action="Tranferir">Tranferir</a></button> 
+<table class="table">
+    <thead>
+        <tr>
+            <th>Numero da Conta</th>
+            <th>Responsável</th>
+            <th>Saldo</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var conta in Model.Contas)
+        {
+            <tr>
+                <td>@conta.NumeroConta</td>
+                <td>@conta.Responsavel</td>
+                <td>@conta.Saldo.ToString("C")</td>
+                <td>
+                    <a asp-controller="Conta" asp-action="Depositar" asp-route-id="@conta.NumeroConta" class="btn btn-primary btn-sm">Depositar</a>
+                    <a asp-controller="Conta" asp-action="Sacar" asp-route-id="@conta.NumeroConta" class="btn btn-warning btn-sm">Sacar</a>
+                    <a asp-controller="Conta" asp-action="Transferir" asp-route-id="@conta.NumeroConta" class="btn btn-info btn-sm">Transferir</a>
+                    <a asp-controller="Movimentacao" asp-action="Extrato" class="btn btn-secondary btn-sm">Extrato</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

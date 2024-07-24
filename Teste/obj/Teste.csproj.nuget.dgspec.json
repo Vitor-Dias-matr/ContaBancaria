@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Teste.csproj": {}
+    "E:\\vitor\\ContaBancaria\\Teste\\Teste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Teste.csproj": {
+    "E:\\vitor\\ContaBancaria\\Teste\\Teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Teste.csproj",
+        "projectUniqueName": "E:\\vitor\\ContaBancaria\\Teste\\Teste.csproj",
         "projectName": "Teste",
-        "projectPath": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\Teste.csproj",
-        "packagesPath": "C:\\Users\\vitor.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor.dias\\Documents\\Teste\\Teste\\obj\\",
+        "projectPath": "E:\\vitor\\ContaBancaria\\Teste\\Teste.csproj",
+        "packagesPath": "C:\\Users\\cezar\\.nuget\\packages\\",
+        "outputPath": "E:\\vitor\\ContaBancaria\\Teste\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vitor.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\cezar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,11 +37,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -81,6 +75,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

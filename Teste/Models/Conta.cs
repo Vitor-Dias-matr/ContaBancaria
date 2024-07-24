@@ -9,7 +9,7 @@
 
         public int NumeroConta { get; set; }
         public string Responsavel { get; set; }
-        public decimal Saldo { get; private set; }
+        public decimal Saldo { get;  set; }
         
     }
 }

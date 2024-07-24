@@ -1,6 +1,28 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using Teste.ViewModel;
+@model DepositarViewModel
+
 @{
+    ViewData["Title"] = "Depositar";
 }
-Depositar
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Depositar" method="post">
+    <div class="form-group">
+        <label asp-for="NumeroConta" class="control-label"></label>
+        <input asp-for="NumeroConta" class="form-control" />
+        <span asp-validation-for="NumeroConta" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Valor" class="control-label"></label>
+        <input asp-for="Valor" class="form-control" />
+        <span asp-validation-for="Valor" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Depositar</button>
+    </div>
+</form>
+
+<a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Voltar para a Lista de Contas</a>

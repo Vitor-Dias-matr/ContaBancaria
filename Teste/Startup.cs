@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -8,6 +9,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Teste.Context;
+using Teste.Repository.Interface;
+using Teste.Repository;
 using Teste.Service;
 using Teste.Service.Interface;
 
@@ -26,7 +30,13 @@ namespace Teste
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews(); 
-            
+
+            // Configurar o Context com a string de conexão
+            services.AddDbContext<Contexto>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            //typeof para tipo generico
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IContaService, ContaService>();
         }
 

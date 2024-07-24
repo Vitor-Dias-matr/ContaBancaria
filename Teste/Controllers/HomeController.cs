@@ -6,21 +6,29 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Teste.Models;
+using Teste.Service.Interface;
+using Teste.ViewModel;
 
 namespace Teste.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IContaService _contaService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IContaService contaService)
         {
-            _logger = logger;
+            _contaService = contaService;
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var contas = await _contaService.ObterTodasContasAsync();
+            var model = new ContaListViewModel
+            {
+                Contas = contas
+            };
+            return View(model);
         }
 
         public IActionResult Privacy()
